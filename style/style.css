@@ -1,0 +1,62 @@
+* {
+  color: #3c3c3c;
+}
+
+a {
+  color: #3c3c3c;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p,
+span {
+  color: #3e3e3e;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 700px;
+  background-color: #fff9f4;
+}
+
+.col-md-6 img {
+  width: 100%;
+}
+
+.my-container {
+  /* min-width: 1200px; */
+}
+.navbar-brand img {
+  width: 100%;
+  z-index: 1;
+}
+.text-orange {
+  color: #fa804c;
+}
+.text-nevyBlue {
+  color: #363958;
+}
+.nav-ovarly {
+  height: 57px;
+  width: 100%;
+  background-image: url(../icon/nav-ovarlay.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: -10px;
+  left: -20px;
+  z-index: -1;
+}
+
+.rounded-5 {
+  border-radius: 1.2rem;
+}
+.my-6 {
+  margin: 5.8rem 0;
+}
+.flex-auto {
+  flex: auto;
+}
