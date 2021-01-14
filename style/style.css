@@ -93,18 +93,8 @@ header {
   font-size: 1rem;
   font-weight: 700;
   border: 2px solid #3d4ff3;
-  transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in, background 0.2s ease-in;
 }
-
-.navbar-toggler:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 20%);
-}
-
-.navbar-toggler:focus {
-  outline: none !important;
-  box-shadow: none;
-}
-
 .btn-blue-gradient:hover {
   color: #ffffff;
   background: #fa804c;
@@ -112,6 +102,14 @@ header {
 }
 .btn-blue-gradient:hover .fas {
   color: #f5f5f5;
+}
+.navbar-toggler:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 20%);
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
 }
 
 .fs-6rem {
