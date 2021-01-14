@@ -19,7 +19,7 @@ span {
 }
 
 header {
-  height: 700px;
+  height: 750px;
   background-color: #fff9f4;
 }
 
@@ -59,4 +59,51 @@ header {
 }
 .flex-auto {
   flex: auto;
+}
+.fw-500 {
+  font-weight: 500;
+}
+
+.menu-hover:hover {
+  color: #fa804c;
+}
+
+.active {
+  border-bottom: 3px solid #fa804c;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in-out;
+}
+
+.active:hover {
+  background-color: #fa804c;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.fas {
+  color: #fff;
+  margin-right: 0.6rem;
+  transition: color 0.2s ease-in;
+}
+
+.btn-blue-gradient {
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1rem;
+  border: 2px solid #3d4ff3;
+  transition: color 0.2s ease-in;
+}
+
+.btn-blue-gradient:hover {
+  color: #3543bc;
+  background: transparent;
+  border: 2px solid #3543bc;
+}
+.btn-blue-gradient:hover .fas {
+  color: #3543bc;
+}
+
+.fs-6rem {
+  font-size: 6rem;
 }
