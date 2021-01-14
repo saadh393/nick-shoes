@@ -14,14 +14,15 @@
     <header class="py-4">
       <div class="container">
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-md navbar-expand-sm">
-          <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-default navbar-expand-md navbar-expand-sm">
+          <a class="navbar-brand d-flex justify-content-between" href="#">
             <img src="./icon/Logo.png" alt="" srcset="" class="logo" />
+            <!-- Hamburger Menu Bar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars text-orange"></i>
+            </button>
           </a>
-          <!-- Hamburger Menu Bar -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-          </button>
+
           <div class="nav-ovarly"></div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -46,10 +47,10 @@
 
         <!-- Banner Section Start -->
         <section class="row d-flex align-items-center">
-          <div class="col-md-6 col-sm-6 pe-5">
+          <div class="col-md-6 col-sm-6 pe-5 order-md-0 order-1">
             <img src="./img/shop-banner.png" alt="" srcset="" class="headerImage" />
           </div>
-          <div class="col-md-6 col-sm-6 ps-5">
+          <div class="col-md-6 col-sm-6 ps-5 order-md-1 order-0">
             <div>
               <h1 class="text-orange fs-6rem">NIKE REACT</h1>
               <h1 class="text-nevyBlue fs-6rem">INFINITY RUN 2</h1>
@@ -72,7 +73,7 @@
             <div class="card h-100 border-1rem card-shadow">
               <img src="./img/shoe-1.png" class="card-img-top p-3" alt="Prestige High-Cut Leather" />
               <div class="card-body">
-                <h5 class="card-title">Prestige High-Cut Leather</h5>
+                <h5 class="card-title my-card-title">Prestige High-Cut Leather</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br />
                 <div class="d-flex justify-content-between">
@@ -87,7 +88,7 @@
             <div class="card h-100 border-1rem card-shadow">
               <img src="./img/shoe-2.png" class="card-img-top p-3" alt="Slip-On Formal Shoe" />
               <div class="card-body">
-                <h5 class="card-title">Slip-On Formal Shoe</h5>
+                <h5 class="card-title my-card-title">Slip-On Formal Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br />
                 <div class="d-flex justify-content-between">
@@ -102,7 +103,7 @@
             <div class="card h-100 border-1rem card-shadow">
               <img src="./img/shoe-3.png" class="card-img-top p-3" alt="Slip-On Formal Shoe" />
               <div class="card-body">
-                <h5 class="card-title">Slip-On Formal Shoe</h5>
+                <h5 class="card-title my-card-title">Slip-On Formal Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br />
                 <div class="d-flex justify-content-between">
@@ -125,7 +126,7 @@
             <div class="card h-100 border-1rem card-shadow">
               <img src="./img/formal-1.png" class="card-img-top" alt="Prestige High-Cut Leather" />
               <div class="card-body">
-                <h5 class="card-title">Prestige High-Cut Leather</h5>
+                <h5 class="card-title my-card-title">Prestige High-Cut Leather</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br />
                 <div class="d-flex justify-content-between">
@@ -140,7 +141,7 @@
             <div class="card h-100 border-1rem card-shadow">
               <img src="./img/formal-2.png" class="card-img-top" alt="Slip-On Formal Shoe" />
               <div class="card-body">
-                <h5 class="card-title">Slip-On Formal Shoe</h5>
+                <h5 class="card-title my-card-title">Slip-On Formal Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br />
                 <div class="d-flex justify-content-between">
@@ -155,7 +156,7 @@
             <div class="card h-100 border-1rem card-shadow">
               <img src="./img/formal-3.png" class="card-img-top" alt="Slip-On Formal Shoe" />
               <div class="card-body">
-                <h5 class="card-title">Slip-On Formal Shoe</h5>
+                <h5 class="card-title my-card-title">Slip-On Formal Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br />
                 <div class="d-flex justify-content-between">
@@ -171,33 +172,33 @@
 
       <section class="gy-5">
         <div class="row align-items-center justify-content-between my-6">
-          <div class="col-md-6 col-sm-6 pe-5">
-            <div class="row flex-nowrap align-items-center rounded-5 shadow my-4">
+          <div class="col-md-6 col-sm-6 pe-1 pe-md-5 order-md-0 order-1 mt-5 mt-md-2">
+            <div class="row flex-wrap flex-sm-nowrap justify-content-center align-items-center rounded-5 shadow my-4 py-5 py-md-0">
               <img src="./icon/find-the-perfect-fit.png" alt="" srcset="" class="w-25 p-4" />
-              <div class="flex-auto">
+              <div class="flex-auto text-align">
                 <h2 class="fs-2rem text-nevyBlue">Find the Perfect Fit</h2>
                 <p>Everybody is different, which is why we offer styles for every body.</p>
               </div>
             </div>
 
-            <div class="row flex-nowrap align-items-center rounded-5 shadow my-4">
+            <div class="row flex-wrap flex-sm-nowrap justify-content-center align-items-center rounded-5 shadow my-4 py-5 py-md-0">
               <img src="./icon/free-exchange.png" alt="" srcset="" class="w-25 p-4" />
-              <div class="flex-auto">
+              <div class="flex-auto text-align">
                 <h2 class="fs-2rem text-nevyBlue">Free Exchange</h2>
                 <p>One of the many reasons you can shop with peace of mind.</p>
               </div>
             </div>
 
-            <div class="row flex-nowrap align-items-center rounded-5 shadow my-4">
+            <div class="row flex-wrap flex-sm-nowrap justify-content-center align-items-center rounded-5 shadow my-4 py-5 py-md-0">
               <img src="./icon/contact.png" alt="" srcset="" class="w-25 p-4" />
-              <div class="flex-auto">
+              <div class="flex-auto text-align">
                 <h2 class="fs-2rem text-nevyBlue">Contact Our Seller</h2>
                 <p>They are here to help you. That's quite literally what we pay them for.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 ps-5">
-            <img src="./icon//XMLID 1.png" alt="" class="headerImage" />
+          <div class="col-md-6 col-sm-6 ps-5 order-md-1 order-0">
+            <img src="./icon//XMLID 1.png" alt="" class="w-100" />
           </div>
         </div>
       </section>

@@ -28,12 +28,8 @@ header {
   width: 100%;
 }
 
-.my-container {
-  /* min-width: 1200px; */
-}
-
 .text-orange {
-  color: #fa804c;
+  color: #fa804c !important;
 }
 .text-nevyBlue {
   color: #363958;
@@ -90,8 +86,18 @@ header {
   padding: 1rem 2rem;
   color: #fff;
   font-size: 1rem;
+  font-weight: 700;
   border: 2px solid #3d4ff3;
   transition: color 0.2s ease-in;
+}
+
+.navbar-toggler:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 20%);
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
 }
 
 .btn-blue-gradient:hover {
@@ -122,6 +128,12 @@ header {
 .card-shadow {
   box-shadow: 1px 3px 6px rgb(0 0 0 / 20%);
 }
+.my-card-title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #363958;
+}
 
 .price {
   color: #fa804c;
@@ -132,6 +144,21 @@ header {
 /* Phone Responsive */
 @media (max-width: 576px) {
   .logo {
-    width: 70%;
+    width: 60%;
+  }
+
+  .fs-4rem {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .fs-6rem {
+    font-size: 5rem;
+  }
+
+  header {
+    height: 900px;
+  }
+  .text-align {
+    text-align: center;
   }
 }
