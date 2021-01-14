@@ -4,6 +4,7 @@
 
 a {
   color: #3c3c3c;
+  text-decoration: none;
 }
 h1 {
   font-family: "Bebas Neue", cursive;
@@ -11,8 +12,7 @@ h1 {
 h3 {
   font-family: "Montserrat", sans-serif;
 }
-p,
-span {
+p {
   color: #3e3e3e;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
@@ -34,6 +34,10 @@ header {
 .text-nevyBlue {
   color: #363958;
 }
+.text-white {
+  color: #fff;
+  /* font-family: "Roboto", sans-serif; */
+}
 .nav-ovarly {
   height: 57px;
   width: 100%;
@@ -49,7 +53,8 @@ header {
   border-radius: 1.2rem;
 }
 .my-6 {
-  margin: 5.8rem 0;
+  margin-top: 5.8rem;
+  padding-bottom: 12rem;
 }
 .flex-auto {
   flex: auto;
@@ -101,12 +106,12 @@ header {
 }
 
 .btn-blue-gradient:hover {
-  color: #3543bc;
-  background: transparent;
-  border: 2px solid #3543bc;
+  color: #ffffff;
+  background: #fa804c;
+  border: 2px solid #fa804c;
 }
 .btn-blue-gradient:hover .fas {
-  color: #3543bc;
+  color: #f5f5f5;
 }
 
 .fs-6rem {
@@ -141,6 +146,62 @@ header {
   font-weight: bold;
 }
 
+.card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(0.99);
+}
+
+.divider {
+  background: url(../img/h4-footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+footer {
+  background: #1b2c58;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer h2 {
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.bottomInfo {
+  width: 80%;
+}
+.bottomList li {
+  color: #fff;
+  /* list-style: none; */
+}
+.socialIcons {
+  display: flex;
+  justify-content: start;
+}
+.socialIcons img {
+  width: 40px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+  border-top: 1px solid gray;
+  margin-top: 2rem;
+}
+.copyright p {
+  color: #fff;
+}
 /* Phone Responsive */
 @media (max-width: 576px) {
   .logo {
