@@ -23,17 +23,15 @@ header {
   background-color: #fff9f4;
 }
 
-.col-md-6 img {
+.logo,
+.headerImage {
   width: 100%;
 }
 
 .my-container {
   /* min-width: 1200px; */
 }
-.navbar-brand img {
-  width: 100%;
-  z-index: 1;
-}
+
 .text-orange {
   color: #fa804c;
 }
@@ -70,12 +68,13 @@ header {
 
 .active {
   border-bottom: 3px solid #fa804c;
+  background-color: #fa804c;
+  border-radius: 4px;
+  color: #fff;
   transition: background-color 0.2s ease-in, color 0.2s ease-in-out;
 }
 
 .active:hover {
-  background-color: #fa804c;
-  border-radius: 4px;
   color: #fff;
 }
 
@@ -106,4 +105,33 @@ header {
 
 .fs-6rem {
   font-size: 6rem;
+}
+
+.fs-4rem {
+  font-size: 4rem;
+}
+
+.fs-2rem {
+  font-size: 2rem;
+}
+
+.border-1rem {
+  border-radius: 1.5rem;
+  border: none;
+}
+.card-shadow {
+  box-shadow: 1px 3px 6px rgb(0 0 0 / 20%);
+}
+
+.price {
+  color: #fa804c;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Phone Responsive */
+@media (max-width: 576px) {
+  .logo {
+    width: 70%;
+  }
 }
